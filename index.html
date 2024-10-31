@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    .wrapper {
+      width: 900px;
+      margin: 200px auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .wrapper .step {
+      width: 300px;
+      position: relative;
+      color: #fff;
+    }
+    .wrapper .step .header {
+      display: flex;
+      align-items: center;
+      padding-top: 4px;
+      background-color: #bb0404;
+    }
+    .wrapper .step .header p {
+      font-size: 96px;
+      writing-mode: vertical-lr;
+    }
+    .wrapper .step .header h2 {
+      font-size: 48px;
+    }
+    .wrapper .step .content {
+      position: relative;
+      z-index: 2;
+      padding: 20px 10px;
+      background-color: #000;
+    }
+    .wrapper .step .content h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .wrapper .step .content p {
+      line-height: 2;
+    }
+    .wrapper .step .pic {
+      position: absolute;
+      top: 100px;
+      left: 150px;
+      z-index: 1;
+    }
+    .wrapper .step .pic img {
+      vertical-align: top;
+    }
+    .wrapper .step .pic .play-icon {
+      position: absolute;
+      right: -20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .wrapper .bg-section {
+      width: 450px;
+      height: 250px;
+      margin-left: auto;
+      margin-top: 40px;
+      background-color: #eeeeee;
+    }
+    .wrapper .innovation {
+      width: 600px;
+      margin-top: 119px;
+      margin-left: 40px;
+      padding: 20px;
+      position: relative;
+      z-index: 2;
+      background-color: #eeeeee;
+    }
+    .wrapper .innovation .title {
+      display: flex;
+      margin-bottom: 10px;
+      color: #bb0404;
+      align-items: center;
+    }
+    .wrapper .innovation .title h3 {
+      font-weight: 700;
+      margin-right: 10px;
+    }
+    .wrapper .innovation .title .line {
+      height: 1px;
+      background-color: #bb0404;
+      flex-grow: 1;
+    }
+    .wrapper .innovation .content li {
+      margin-bottom: 10px;
+    }
+    .wrapper .innovation .content li h4 {
+      display: inline-block;
+      padding: 4px 2px;
+      margin-bottom: 10px;
+      background-color: #000;
+      color: #fff;
+    }
+    .wrapper .innovation .content li div {
+      position: relative;
+    }
+    .wrapper .innovation .content li div p {
+      margin-left: 20px;
+      line-height: 1.5;
+      position: relative; 
+    }
+    .wrapper .innovation .content li div p::before {
+      content: "";
+      width: 4px;
+      height: 4px;
+      display: block;
+      border-radius: 50%;
+      background-color: #bb0404;
+      position: absolute;
+      left: -10px;
+      top: 0.5em;
+      transform: translateY(50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="step">
+      <div class="header">
+        <p>01</p>
+        <h2>操控樂趣</h2>
+      </div>
+      <div class="content">
+        <h3>人人滿意的駕駛體驗</h3>
+        <p>
+          加盟我市選擇智能士兵鎖定輸入頻道一路，醫學他說施工收益選手加工手術，討論說明用。
+          加盟我市選擇智能士兵鎖定輸入頻道一路，醫學他說施工收益。
+        </p>
+      </div>
+      <div class="pic">
+        <img src="https://picsum.photos/id/429/600/350" alt="">
+        <a 
+          class="play-icon"
+          href="#"
+        >
+            <img 
+              src="play.png" 
+              alt="play icon"
+              width="40"
+              height="40"
+            >
+        </a>
+      </div>
+    </div>
+    <div class="bg-section"></div>
+    <div class="innovation">
+      <div class="title">
+        <h3>因為我們做了這些革新</h3>
+        <div class="line"></div>
+      </div>
+      <ul class="content">
+        <li>
+          <h4>低重心設計</h4>
+          <div>
+            <span class="circle"></span>
+            <p>會員讓他增強閲讀者，招聘策略固定，字體。</p>
+          </div>
+        </li>
+        <li>
+          <h4>車體剛性強化</h4>
+          <div>
+            <span class="circle"></span>
+            <p>會員讓他增強閲讀者，招聘策略固定，字體。會員讓他增強閲讀者，招聘策略固定，字體。</p>
+          </div>
+        </li>
+        <li>
+          <h4>四輪獨立懸吊</h4>
+          <div>
+            <span class="circle"></span>
+            <p>會員讓他增強閲讀者，招聘策略固定，字體。會員讓他增強閲讀者，招聘策略固定，字體。</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
